@@ -17,6 +17,7 @@ fileinfo
 
 
 The purpose of this library is to develop a simple class that returns information about a
+given file. The class shall be instantiated with the file path, which can be relative.
 
 
 * Free software: MIT license

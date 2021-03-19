@@ -12,9 +12,9 @@ with open('HISTORY.rst') as history_file:
 
 requirements = ['Click>=7.0', ]
 
-setup_requirements = [ ]
+setup_requirements = []
 
-test_requirements = [ ]
+test_requirements = []
 
 setup(
     author="swilltec",
@@ -31,7 +31,8 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="The purpose of this library is to develop a simple class that returns information about a",
+    description=""""The purpose of this library is to develop a simple class that returns information about a
+given file. The class shall be instantiated with the file path, which can be relative.""",
     entry_points={
         'console_scripts': [
             'fileinfo=fileinfo.cli:main',
